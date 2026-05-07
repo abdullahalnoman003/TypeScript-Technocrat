@@ -13,37 +13,51 @@ This repository contains solutions to fundamental TypeScript challenges and deta
 Seven progressively challenging TypeScript problems demonstrating key language features:
 
 #### Problem 1: Array Filtering
+
 Filter even numbers from an array.
+
 - **Input:** `[1, 2, 3, 4, 5, 6]`
 - **Output:** `[2, 4, 6]`
 
 #### Problem 2: String Reversal
+
 Reverse a string using array transformations.
+
 - **Input:** `"typescript"`
 - **Output:** `"tpircsepyt"`
 
 #### Problem 3: Type Guards
+
 Use union types and runtime type checking to identify string or number types.
+
 - **Input:** `"Hello"` or `42`
 - **Output:** `"String"` or `"Number"`
 
 #### Problem 4: Generic Functions with Constraints
+
 Type-safe property access using generics and keyof constraints.
+
 - **Input:** `{ id: 1, name: "John Doe", age: 21 }`, key: `"name"`
 - **Output:** `"John Doe"`
 
 #### Problem 5: Interface Composition
+
 Extend a Book interface with an `isRead` property using intersection types.
+
 - **Input:** `{ title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 }`
 - **Output:** `{ title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024, isRead: true }`
 
 #### Problem 6: Class Inheritance
+
 Build a Student class that extends Person and includes a method for detailed output.
+
 - **Input:** `new Student("Alice", 20, "A")` → `getDetails()`
 - **Output:** `"Name: Alice, Age: 20, Grade: A"`
 
 #### Problem 7: Array Intersection
+
 Find elements present in both arrays.
+
 - **Input:** `[1, 2, 3, 4, 5]`, `[3, 4, 5, 6, 7]`
 - **Output:** `[3, 4, 5]`
 
